@@ -1,0 +1,14 @@
++GEM
+ +  remote: https://rubygems.org/
+ +  specs:
+ +    Using rack 1.5.2
+ +	  Using rack-protection 1.5.3
+ +    Using tilt 1.4.1
+ +    Using sinatra 1.4.5
+ +    Using bundler 1.6.2
+ +
+ +PLATFORMS
+ +  ruby
+ +
+ +DEPENDENCIES
+ +  sinatra
