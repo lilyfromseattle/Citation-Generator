@@ -1,0 +1,24 @@
+
+<h3>Chicago Style Citation Generator</h3>
+<form action="/chicago" method="post">
+  <p>Author's first name:</p><input type="text" name="post[firstName]">
+  <p>Author's last name:</p><input type="text" name="post[lastName]">
+
+  <p>Number of authors:</p><input type="text" name="post[authorCount]">
+
+  <p>Second author's first name:</p><input type="text" name="post[firstName2]">
+  <p>Second author's last name:</p><input type="text" name="post[firstName2]">
+
+  <p>Third author's first name:</p><input type="text" name="post[firstName3]">
+  <p>Third author's lastname:</p><input type="text" name="post[firstName3]">
+
+  <p>City where published:</p><input type="text" name="post[location]">
+  <p>Publisher:</p><input type="text" name="post[location]"> 
+  <p>Year published:</p><input type="text" name="post[year]">
+  <p>Pages used (separated by a dash):</p><input type="text" name="post[pages]">
+
+  <input type="submit">
+</form>
+
+@post = params[:post]
+
