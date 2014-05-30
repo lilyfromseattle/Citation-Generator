@@ -1,0 +1,42 @@
+body {
+	font-family: centurygothic, Geneva, sans-serif;
+	background-image: url('http://1-background.com/images/glass-1/glass-background-2.jpg')
+	
+}
+
+h1 {
+	text-shadow: 2px 2px 2px cadetblue;
+	margin-left: 5%;
+
+}
+
+form { 
+	margin-left:5%;
+}
+
+#form {
+	border-radius: 15px;
+	background: -webkit-linear-gradient(lightcyan, gainsboro);	
+	opacity: .9;
+	box-shadow: 2px 2px 2px black;
+	font-family: centurygothic, arial;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+
+.btn-submit {
+	width: 150px;
+	float: left;
+	margin: 2% 0;
+	border: 0;
+	padding: 10px 25px;
+	color: black;
+	font-size: .75em;
+	background-color: black;
+	border-radius: 25px;
+	text-transform: uppercase;
+	color: lightcyan;
+}
+

@@ -1,22 +1,25 @@
-<h3>Chicago Style Citation Generator</h3>
-<form action="/chicago" method="post">
-  <p>Author's first name:</p><input type="text" name="firstName">
-  <p>Author's last name:</p><input type="text" name="lastName">
 
-  <p>Number of authors:</p><input type="text" name="authorCount">
 
-  <p>Second author's first name:</p><input type="text" name="firstName2">
-  <p>Second author's last name:</p><input type="text" name="lastName2">
+<link rel="stylesheet" href="/css/main.css">
+<div id="form">
+  <h1>Chicago Style Citation Generator</h1>
+  <form action="/chicago" method="post">
+      <label for="firstName">Author's first name:</label><input type="text" name="firstName"><br></br>
+      <label for="lastName">Author's last name:</label><input type="text" name="lastName"><br></br>
 
-  <p>Third author's first name:</p><input type="text" name="firstName3">
-  <p>Third author's lastname:</p><input type="text" name="lastName3">
-  
-  <p>Title:</p><input type="text" name="title">
-  <p>City where published:</p><input type="text" name="location">
-  <p>Publisher:</p><input type="text" name="publisher"> 
-  <p>Year published:</p><input type="text" name="year">
-  <p>Pages used (separated by a dash):</p><input type="text" name="pages">
+      <label for="authorCount">Number of authors:</label><input type="text" name="authorCount"><br></br>
 
-  <input type="submit">
-</form>
+      <label for="firstName2">Second author's first name:</label><input type="text" name="firstName2"><br></br>
+      <label for="lastName2">Second author's last name:</label><input type="text" name="lastName2"><br></br>
 
+      <label for="firstName3">Third author's first name:</label><input type="text" name="firstName3"><br></br>
+      <label for="lastName3">Third author's last name:</label><input type="text" name="lastName3"><br></br>
+      
+      <label for="title">Title:</label><input type="text" name="title"><br></br>
+      <label for="location">City where published:</label><input type="text" name="location"><br></br>
+      <label for="publisher">Publisher:</label><input type="text" name="publisher"><br></br>
+      <label for="year">Year published:</label><input type="text" name="year"><br></br>
+      <label for="pages">Pages used (separated by a dash):</label><input type="text" name="pages"><br></br>
+      <input type="submit" class="btn-submit">
+  </form>
+ <div>
