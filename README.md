@@ -1,0 +1,1 @@
+This is a Ruby app I created using Sinatra that generates Chicago style citations.This is a Ruby app I created using Sinatra that generates Chicago style citations.
